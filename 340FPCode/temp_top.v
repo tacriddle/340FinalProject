@@ -1,20 +1,6 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: N/A
-// Engineer: David J. Marion
-// 
-// Create Date: 4.27.2023
-// Design Name: Basys 3 with PmodTMP2 - Temperature Sensor
-// Module Name: top
-// Project Name: Thermometer
-// Target Devices: Basys 3 Artix-7 35T
-// Tool Versions: Vivado 2021.2
-// Description: I2C communication with ADT7420 temp sensor aboard PmodTMP2
-//             
-// Comments: Same modules from Nexys A7 with some tweaks.
-//           Reset logic has been removed as it is not really needed.
-//           This project can output Celsius or Fahrenheit on 7-segment display
-//           and on LEDs depending on a switch.
+/////////////////////////////////////////////////////////////////////////////////
+
 //////////////////////////////////////////////////////////////////////////////////
 
 module Temp2Top(
